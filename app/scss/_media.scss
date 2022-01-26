@@ -5,7 +5,13 @@
 
 // ≥1200px
 @include media-breakpoint-down(lg) {
-	
+    .main-menu {
+        display: none;
+        padding: 20px;
+    }
+    .mobile-menu-button {
+        display: block;
+    }
 }
 
 // ≥992px
